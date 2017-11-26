@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <!-- <h1><%= title %></h1> -->
+    <h1>Le plus beau chat du monde</h1>
+
+    <input id="nom" placeholder="Votre pseudo"><br><br>
+    <input id="message" type="text" placeholder="Message"/>
+    <ul id="chat"></ul>
+
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/javascripts/index.js"></script>
+</html>
